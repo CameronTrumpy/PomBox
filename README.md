@@ -7,6 +7,9 @@ This readme details how to make your own pombox.
 
  - [16x2 LCD](https://www.sparkfun.com/products/16397) from Sparkfun
  - [Mini Speaker](https://www.sparkfun.com/products/7950) from Sparkfun
+ - Buttons
+ - Breadboard
+ - ESP-8266 or similar form factor Arduino board 
 
 ## 2. Testing your Arduino
 
@@ -14,4 +17,7 @@ This readme details how to make your own pombox.
 
 ## 4. Assembling your PomBox
 
-## 5. Further improvements
+## 5. Ideas for Further Improvements
+ -Try designing your own housing, or 3D printing your own. [I included a basic STL](github.com/CameronTrumpy/PomBox/model) that I put together for mine.
+ -Add custom controls
+ -Beautify the GUI/Menus on the LCD
