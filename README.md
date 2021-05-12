@@ -14,9 +14,8 @@ This readme details how to make your own pombox.
 ## 2. Setup your Arduino project
  If you have not worked with Arduino or an ESP-8266 board, you will need to set up your Arduino IDE and your libraries.
  Follow throught the steps below if you need help setting up your Arduino IDE with an ESP-8266.
- 1.**Download and install the Arduino IDE**
- 2.**Add ESP-8266 Libraries
- 3.**
+1.**Download and install the Arduino IDE**
+2.**Add ESP-8266 Libraries
  
 ## 3. Testing your Arduino
  Try running the example blink program, and make sure it runs well.
