@@ -32,8 +32,8 @@ Try running the example blink program located at `File -> Examples -> ESP8266 ->
 ## 5. Upload the Project
 To upload the full PomBox project to your Arduino, each file needs to be loaded into your Arduino Project separately.
 Start by going to `File -> Open` and open the `pombox.ino` file, from wherever you cloned the repository to.
-Once you load this in, you will need to add the rest of the files.
 
+Once you load this in, you will need to add the rest of the files. To do so, you need to navigate to `Sketch -> Add File`, then select the rest of the `.ino` files from the cloned repository.
 
 ## 6. Ideas for Further Improvements
  - Try designing your own housing, or 3D printing your own. [I included a basic STL](https://github.com/CameronTrumpy/PomBox/model) that I put together for mine.
