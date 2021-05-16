@@ -28,6 +28,7 @@ Select your model board on `Tools -> Board`, and once your board is connected to
 Try running the example blink program located at `File -> Examples -> ESP8266 -> Blink`.
 
 ## 4. Assembling your PomBox
+<img src="/Res/front.jpg" alt="Front of Box" width="400"/>
 
 ## 5. Upload the Project
 To upload the full PomBox project to your Arduino, each file needs to be loaded into your Arduino Project separately.
