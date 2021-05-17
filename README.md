@@ -21,6 +21,9 @@ Download either the latest version of the classic IDE, or try out the new 2.0 ID
 2.**Add ESP-8266 Libraries**
 Once installed, go to `File -> Preferences` in the navigation menu. Enter the URL "http://arduino.esp8266.com/stable/package_esp8266com_index.json" into Additional Board Manager URLs field and click the “OK” button.
 
+Later on, you will need the SerLCD library from Sparkfun, if you are using the 16x2 LCD that was listed above. To add this library, download the [latest relased zip](https://github.com/sparkfun/SparkFun_SerLCD_Arduino_Library/releases).
+Once downloaded, go to `Sketch -> Include Library -> Add .ZIP library`, and select the library you downloaded.
+
 3.**Select your Board**
 Select your model board on `Tools -> Board`, and once your board is connected to your PC, select the correct USB device in `Tools -> Port`.
 
@@ -28,7 +31,13 @@ Select your model board on `Tools -> Board`, and once your board is connected to
 Try running the example blink program located at `File -> Examples -> ESP8266 -> Blink`.
 
 ## 4. Assembling your PomBox
-<img src="/Res/front.jpg" alt="Front of Box" width="400"/>
+Wiring Diagram
+
+Actual Wiring Picture
+<img src="/Res/top.jpg" alt="Front of Box" width="500"/>
+
+Front View with Case
+<img src="/Res/front.jpg" alt="Front of Box" width="500"/>
 
 ## 5. Upload the Project
 To upload the full PomBox project to your Arduino, each file needs to be loaded into your Arduino Project separately.
