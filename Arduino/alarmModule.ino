@@ -1,5 +1,4 @@
 void alarmMonitor() {
-  // put your main code here, to run repeatedly:
   if (!triggerPressed && phoneMode && working) {
     analogWrite(alarm, 0);
     delay(100);
