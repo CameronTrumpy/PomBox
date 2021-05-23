@@ -31,12 +31,29 @@ Select your model board on `Tools -> Board`, and once your board is connected to
 Try running the example blink program located at `File -> Examples -> ESP8266 -> Blink`.
 
 ## 4. Assembling your PomBox
-Wiring Diagram
+This step leaves room for lots of experimentation on your own, I encourage you to figure out what works the best for your setup. Here is a pinout table from my esp to the rest of my buttons. The rest of the wiring is easy to figure out, and is mainly just jumper wiring ground to your buttons and across the board. 
 
-Actual Wiring Picture
-<img src="/Res/top.jpg" alt="Front of Box" width="500"/>
+Wiring Table
+| ESP PINS- FROM | GPIO #  | TO position              |
+|----------------|---------|--------------------------|
+| 3V3            |   n/a   | RAW serLCD               |
+| GND            |   n/a   | (-) serLCD               |
+| 3V3            |   n/a   | (+) breadboard rail      |
+| GND            |   n/a   | (-) breadboard rail      |
+| D1             |   n/a   | SCL - serLCD             |
+| D2             |   n/a   | SDA - serLCD             |
+| D3             |    0    | Confirm(Green) Button +  |
+| D5             |    14   | Alarm +                  |
+| D6             |    12   | Trigger(Yellow) Button + |
+| D7             |    13   | Cancel(Red) Button +     |
+| SD3            |    10   | Up(Blue) Button +        |
 
-Front View with Case
+You will notice in the image below that I soldered my wired to the LCD. Please note that I did not have enough variety of wire colors to designate any color to a specific meaning. For example, I have Black wires running for GND and also for some buttons (+) sides. This is not a good practice and should be avoided to ensure that wire colors accurately correspond to their conventional meanings.
+
+<img src="/Res/top.jpg" alt="Wiring View" width="500"/>
+
+[I included a basic STL](https://github.com/CameronTrumpy/PomBox/Model) that I put together for mine. Design your own or download the one I made!
+
 <img src="/Res/front.jpg" alt="Front of Box" width="500"/>
 
 ## 5. Upload the Project
@@ -46,7 +63,7 @@ Start by going to `File -> Open` and open the `pombox.ino` file, from wherever y
 Once you load this in, you will need to add the rest of the files. To do so, you need to navigate to `Sketch -> Add File`, then select the rest of the `.ino` files from the cloned repository.
 
 ## 6. Ideas for Further Improvements
- - Try designing your own housing, or 3D printing your own. [I included a basic STL](https://github.com/CameronTrumpy/PomBox/model) that I put together for mine.
- - Add custom controls.
- - Beautify the GUI/Menus on the LCD.
- - Upgrade from breadboard design to perfboard or a more permanent and robust solution.
+ - Try designing your own housing
+ - Add custom controls
+ - Beautify the GUI/Menus on the LCD
+ - Upgrade from breadboard design to perfboard or a more permanent and robust solution
