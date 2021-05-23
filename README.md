@@ -52,7 +52,7 @@ You will notice in the image below that I soldered my wired to the LCD. Please n
 
 <img src="/Res/top.jpg" alt="Wiring View" width="500"/>
 
-[I included a basic STL](https://github.com/CameronTrumpy/PomBox/Model) that I put together for mine. Design your own or download the one I made!
+[I included a basic STL case](https://github.com/CameronTrumpy/PomBox/tree/main/Model) that I put together for mine. Design your own or download the one I made!
 
 <img src="/Res/front.jpg" alt="Front of Box" width="500"/>
 
